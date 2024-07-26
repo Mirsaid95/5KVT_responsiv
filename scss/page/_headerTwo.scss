@@ -1,0 +1,51 @@
+.headerTwo{
+    width: 100%;
+    padding: 10px 10px;
+    
+
+    &__two{
+        display: none;
+    }
+
+    &__mobil{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__image-logo{
+        width: 25%;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    &__mobil-item{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    &__mobil-link{
+        font-size: 16px;
+        color: black;
+        &:hover{
+            color: blue;
+        }
+    }
+
+    &__bars{
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        background-color: blue;
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+}

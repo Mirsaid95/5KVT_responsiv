@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dis {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+button {
+  font-size: 14;
+}
+button:hover {
+  transform: scale(1.2);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.507);
+}
+
+.header {
+  width: 100%;
+}
+.header__nav {
+  display: none;
+}
+
+.headerTwo {
+  width: 100%;
+  padding: 10px 10px;
+}
+.headerTwo__two {
+  display: none;
+}
+.headerTwo__mobil {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerTwo__image-logo {
+  width: 25%;
+}
+.headerTwo__image-logo img {
+  width: 100%;
+}
+.headerTwo__mobil-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.headerTwo__mobil-link {
+  font-size: 16px;
+  color: black;
+}
+.headerTwo__mobil-link:hover {
+  color: blue;
+}
+.headerTwo__bars {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.headerThree {
+  width: 100%;
+}
+.headerThree__three {
+  display: none;
+}
+.headerThree__items {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.headerThree__info-company {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerThree__num-info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+  color: black;
+}
+.headerThree__num-info .fa-phone {
+  color: blue;
+}
+.headerThree__num-info .fa-envelope {
+  color: rgb(255, 153, 0);
+}
+.headerThree__search-form {
+  width: 100%;
+  height: 30px;
+  padding: 5px 8px;
+  background-color: whitesmoke;
+}
+.headerThree__search-label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerThree__search-input {
+  border: none;
+  background-color: transparent;
+}
